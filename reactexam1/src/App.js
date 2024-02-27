@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  let name = "조성현"
   return (
     <div className="App">
       <header className="App-header">
-        <h2>안녕 리액트</h2>
+        <h2>안녕 리액트 {name}</h2>
       </header>
     </div>
   );
