@@ -12,3 +12,18 @@ React 사용이유
 
 npx create-react-app reactexam1
 -- 한번만 사용하는 리액트 프로젝트 생성
+
+npm create vite@latest
+-- vite를 사용한 리액트 프로젝트 생성
+framework = react
+variant = javascript
+로 생성
+
+확장프로그램 eslint <-- 설치
+
+eslintrc.cjs 파일의
+rules 에 아래 스크립트 추가
+"no-unused-vars":"off" = 실제 사용하지 않는 변수가 있을때 오류로 알려줌(혼란스러울 수도 있으니 OFF)
+"react/prop-types":"off" = 나중에 안정적으로 돌리게끔 해주는것(실습땐 OFF)
+
+다음엔 실습해야지!!!
